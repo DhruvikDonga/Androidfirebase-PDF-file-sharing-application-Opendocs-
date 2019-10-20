@@ -1,4 +1,4 @@
-# Firebase Storage
+# Firebase PDF File Storage with Database and authentication
 PDF upload and download android app using firebase
 ## Prerequisites
 * Supported Android 4.1 or newer
