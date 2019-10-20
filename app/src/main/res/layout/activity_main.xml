@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#B1D9EC"
+	android:orientation="vertical"
+	android:padding="30dp"
+	tools:context="com.example.storage.MainActivity">
+
+	<ImageView
+		android:layout_width="165dp"
+		android:layout_height="144dp"
+		android:layout_centerHorizontal="true"
+		android:layout_gravity="center"
+		android:contentDescription="@string/app_name"
+		android:src="@mipmap/ic_launcher_foreground"
+		android:visibility="visible" />
+
+	<TextView
+		android:id="@+id/textViewName"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="50dp"
+		android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+		android:textColor="@color/colorAccent"
+		android:textSize="20dp"
+
+		/>
+
+	<TextView
+		android:id="@+id/textViewEmail"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+		android:layout_marginTop="20dp"
+		android:textSize="20dp"
+		android:textColor="@color/colorAccent"
+		/>
+	<EditText
+		android:id="@+id/txt_pdfName"
+
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="50dp"
+		android:hint="Enter pdf name"
+		android:textSize="22sp" />
+
+	<Button
+		android:id="@+id/btn_upload"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:layout_marginBottom="20dp"
+		android:background="@drawable/button_round"
+		android:text="Upload"
+		android:textColor="@color/colorAccent"
+
+		/>
+
+	<Button
+		android:id="@+id/btn_view"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/button_round"
+		android:onClick="btn_action"
+		android:text="View pdf on cloud"
+		android:textColor="@color/colorAccent"
+
+		/>
+
+
+</LinearLayout>

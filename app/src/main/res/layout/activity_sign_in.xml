@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B1D9EC"
+    android:orientation="vertical"
+    android:padding="30dp"
+
+    tools:context="com.example.storage.SignIn">
+
+    <ImageView
+        android:layout_width="165dp"
+        android:layout_height="144dp"
+        android:layout_centerHorizontal="true"
+
+        android:contentDescription="@string/app_name"
+        android:src="@mipmap/ic_launcher_foreground"
+        android:visibility="visible" />
+
+    <TextView
+        android:hint="  Sign in this application with google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+
+        android:textColor="@color/colorAccent"
+
+        />
+
+</RelativeLayout>
