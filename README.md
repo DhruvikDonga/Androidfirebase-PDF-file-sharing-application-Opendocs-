@@ -5,9 +5,10 @@ PDF upload and download android app using firebase
 * Android Studio 3.3.2 or higher
 * google-services.json in app-level folder
 
+
 ## Features
 * Authentication usage
-* Create references
+* Create a reference file name and store name in realtime database
 * Upload files
 * Download files
 
